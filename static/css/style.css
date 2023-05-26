@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-grow: 1;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .left-container {
+    width: 30%;
+    padding: 20px;
+  }
+  
+  .right-container {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .input-field {
+    margin-right: 8px;
+    margin-left: 8px;
+    width: 40px;
+  }
+
+  .funcoes {
+    display: flex;
+    align-items: left;
+    gap: 50px;
+    flex-direction: column;
+  }
+  .funcao {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+  }
+  .denominador{
+    display: flex;
+    align-items: center;
+  }
+  .numerador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img{
+    width: 95%;
+  }
+
+  .fieldset-personalizado {
+    padding: 10px;
+    border: solid 3px rgb(248, 249, 250);
+    border-radius: 12px;
+}
+
+  .fieldset-personalizado legend {
+      padding: 2px 4px;
+  }
+
+  
